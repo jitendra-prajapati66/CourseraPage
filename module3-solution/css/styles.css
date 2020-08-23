@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+body{
+	font-size: 16px;
+  color: #fff;
+  background-color: #8458B3;
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav
+{
+
+  background-color: #D0BDF4;
+  border-radius: 0;
+  border:0;
+}   
+.navbar-brand
+{		
+
+  padding-top: 25px;
+  margin-bottom: 20px;
+
+}
+#menu-title h1{
+	text-align: center;
+	color: #D0BDF4;
+
+}
+.navbar-brand h1
+{
+
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: .75;
+
+
+}
+.navbar-brand a:hover,.navbar-brand-focus{
+	text-decoration: none;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color:#955C49;
+	text-align: center;
+}
+#nav-list a:hover{
+	background-color: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.5em;
+}
+#phone{
+	margin-top: 5px;
+}
+#phone a {
+  text-align: right;
+  padding-bottom:5px;
+}
+#phone div{
+	text-align:right;
+	padding-right: 20px;
+	color: #557c3e;
+}
+.navbar-header button.navbar-toggle ,.navbar-header .icon-bar{
+  border: 1px solid #61122f;
+
+}
+.navbar-header button.navbar-toggle
+{
+	clear: both;
+	margin-top:-40px;
+}
+
+/******end of header***/
+#call-btn>a{
+	font-size: 1.5em;
+	color: #8458B3;
+	margin: 0 20px;
+	display: block;
+	padding: 10px;
+	border: round 1px #fff;
+	background-color: #d0bdf4;
+	text-shadow: #000;
+}
+#xs-deliver
+{
+	margin-top: 10px;
+	 font-size: .7em;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+}
+/*****main container*****/
+div section{
+	background-color: #D0BDF4;
+	border:1px solid black;
+	color: black;
+	padding:10px;
+}
+h2{
+	margin-top:-10px;
+	text-align: center;
+}
+#main-container div{
+	margin-top: 15px;
+}
+@media( max-width: 767px ) {
+  .navbar-brand{
+    padding-top: 20px;
+  }
+.navbar-brand h1{
+    padding-top:10px;
+    
+  }
+   #nav-list a{
+    font-size: 1.2em;
+    }
+    #nav-list a span{
+    	margin-right: 7px;
+    	font-size: 1em;
+    }
+    #call-btn >a{
+    font-size: 1.5em;
+    display: block;
+    padding:10px;
+    border: 1px solid #ffff;
+    margin:0 20px;
+ 
+
+    }
+    #xs-deliver{
+      margin-top: 10px;
+      font-size: .7em;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+    }
+}
+@media(max-width: 467px){
+.navbar-brand h1{
+    
+   
+    padding: 0 auto 15px;
+    
+  }
