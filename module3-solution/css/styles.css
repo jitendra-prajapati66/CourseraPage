@@ -3,6 +3,7 @@
     margin:0;
 }
 
+
 body{
 	font-size: 16px;
   color: #fff;
@@ -18,7 +19,6 @@ body{
 }   
 .navbar-brand
 {		
-
   padding-top: 25px;
   margin-bottom: 20px;
 
@@ -33,17 +33,18 @@ body{
 
   font-family: 'Lora', serif;
   color: #557c3e;
-  font-size: 2em;
+  font-size: 2.5em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0px;
   margin-bottom: 0px;
   line-height: .75;
+  margin-left: 15px;
 
 
 }
-.navbar-brand a:hover,.navbar-brand-focus{
+.navbar-brand a:hover,.navbar-brand:focus{
 	text-decoration: none;
 }
 #nav-list{
@@ -72,7 +73,7 @@ body{
 	color: #557c3e;
 }
 .navbar-header button.navbar-toggle ,.navbar-header .icon-bar{
-  border: 1px solid #61122f;
+  border: 1.5px solid #61122f;
 
 }
 .navbar-header button.navbar-toggle
@@ -113,12 +114,21 @@ h2{
 #main-container div{
 	margin-top: 15px;
 }
+div.end{
+  margin-bottom: 20px;
+}
+
+
+
+
+
 @media( max-width: 767px ) {
   .navbar-brand{
     padding-top: 20px;
   }
 .navbar-brand h1{
     padding-top:10px;
+    font-size: 2em;
     
   }
    #nav-list a{
@@ -151,3 +161,5 @@ h2{
     padding: 0 auto 15px;
     
   }
+}
+
