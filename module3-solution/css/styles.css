@@ -7,7 +7,7 @@
 body{
 	font-size: 16px;
   color: #fff;
-  background-color: #8458B3;
+  background-color:#8458B3;
   font-family: 'Oxygen', sans-serif;
 }
 #header-nav
@@ -114,8 +114,9 @@ h2{
 #main-container div{
 	margin-top: 15px;
 }
-div.end{
+#main-container div{
   margin-bottom: 20px;
+  box-shadow: 100px 100px 100px 100px  #8458B3;
 }
 
 
