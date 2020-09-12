@@ -83,6 +83,7 @@ body{
 }
 
 /******end of header***/
+
 #call-btn>a{
 	font-size: 1.5em;
 	color: #8458B3;
@@ -97,10 +98,13 @@ body{
 {
 	margin-top: 10px;
 	 font-size: .7em;
-      letter-spacing: .2em;
-      text-transform: uppercase;
+   letter-spacing: .2em;
+  text-transform: uppercase;
 }
 /*****main container*****/
+#menu-title h1#menu{
+  color: white;
+}
 div section{
 	background-color: #D0BDF4;
 	border:1px solid black;
