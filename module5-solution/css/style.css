@@ -19,10 +19,12 @@ body
 #logo-img 
 {
 
-  background:url('../images/restaurant-logo_large.png') no-repeat;
+  background:url('../images/restaurant-logo_large.jpg') no-repeat;
   width: 150px;
   height: 150px;
   margin :10px 15px 10px 0px;
+  border:4px solid #8458B3;
+  border-radius: 5px;
 
 }
 .navbar-brand
@@ -95,7 +97,8 @@ body
   padding-right: 15px;
 }
 .navbar-header button.navbar-toggle ,.navbar-header .icon-bar{
-  border: 1px solid #61122f;
+  border: 1.5px solid #61122f;
+
 
 }
 .navbar-header button.navbar-toggle {
@@ -263,7 +266,7 @@ h3.menu-item-title {
 
 @media( min-width: 992px ) and (max-width:1199px ){
   #logo-img{
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    background: url('../images/restaurant-logo_medium.jpg') no-repeat;
     width: 100px;
     height: 100px;
     margin-top: 5px 5px 5px 0;
@@ -331,8 +334,16 @@ h3.menu-item-title {
     padding:10px;
     border: 1px solid #ffff;
     margin:0 20px;
-    color: #444;
+    color: #8458B3;
 
+    }
+    #call-btn >a:hover{
+      color: #444;
+      font-size: 2em;
+    }
+    #call-btn >span{
+        color: #444;
+      font-size: 2em;
     }
     #xs-deliver{
       margin-top: 10px;
